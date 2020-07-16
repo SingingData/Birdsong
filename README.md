@@ -1,4 +1,4 @@
-# birdsong
+# Birdsong
 
 The ten second recordings found in the audio folder are data arrays with sample rate of 22000.
 
