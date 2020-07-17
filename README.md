@@ -6,4 +6,6 @@ Within the 'raw-audio-unfiltered-22000-sample' folder are the individual audio r
 
 In the 'notebooks' folder you will find the script used to strip and downsample the audio from the original captured video.
 
-This dataset complements the repository here https://github.com/SingingData/Birdsong-Self-Supervised-Learning.  On that repo you can find two notebooks to preprocess and filter this birdsong dataset using two methods.  The first eliminates those audio samples with a low differential between minimum and maximum magnitude.  The second method performs a K-means analysis on the Constant Q transform of the audio sample to identify and eliminate unwanted samples. https://github.com/SingingData/Birdsong-Self-Supervised-Learning/tree/master/Notebooks/Preprocessing  Note the dataset here is unfiltered.
+This dataset complements the repository here https://github.com/SingingData/Birdsong-Self-Supervised-Learning.  
+
+This dataset is unfiltered.  We recommend filtering this dataset before using.  There are two notebooks to preprocess and filter this birdsong available here https://github.com/SingingData/Birdsong-Self-Supervised-Learning/tree/master/Notebooks/Preprocessing.  The first eliminates those audio samples with a low differential between minimum and maximum magnitude.  The second method performs a K-means analysis on the Constant Q transform of the audio sample to identify and eliminate unwanted samples. 
